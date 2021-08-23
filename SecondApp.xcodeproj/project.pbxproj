@@ -16,6 +16,7 @@
 		12AC7DB726D3560F000FC3FB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC7DB626D3560F000FC3FB /* SecondViewController.swift */; };
 		12AC7DB926D35670000FC3FB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC7DB826D35670000FC3FB /* ThirdViewController.swift */; };
 		12AC7DBB26D35808000FC3FB /* LiginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC7DBA26D35808000FC3FB /* LiginViewController.swift */; };
+		12AC7DBD26D35BAB000FC3FB /* TealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC7DBC26D35BAB000FC3FB /* TealViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		12AC7DB626D3560F000FC3FB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		12AC7DB826D35670000FC3FB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		12AC7DBA26D35808000FC3FB /* LiginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiginViewController.swift; sourceTree = "<group>"; };
+		12AC7DBC26D35BAB000FC3FB /* TealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TealViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				12AC7DB626D3560F000FC3FB /* SecondViewController.swift */,
 				12AC7DB826D35670000FC3FB /* ThirdViewController.swift */,
 				12AC7DBA26D35808000FC3FB /* LiginViewController.swift */,
+				12AC7DBC26D35BAB000FC3FB /* TealViewController.swift */,
 			);
 			path = SecondApp;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				12AC7DA326D32584000FC3FB /* ViewController.swift in Sources */,
 				12AC7DB926D35670000FC3FB /* ThirdViewController.swift in Sources */,
 				12AC7D9F26D32584000FC3FB /* AppDelegate.swift in Sources */,
+				12AC7DBD26D35BAB000FC3FB /* TealViewController.swift in Sources */,
 				12AC7DA126D32584000FC3FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
