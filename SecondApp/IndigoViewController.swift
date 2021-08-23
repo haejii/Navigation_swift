@@ -8,11 +8,17 @@
 import UIKit
 
 class IndigoViewController: UIViewController {
+    
+    var tearVC:TealViewController?
 
+    @IBOutlet weak var IndigoTextField: UITextField!
+    
+    @IBAction func Confirm(_ sender: Any) {
+        tearVC?.resultText = IndigoTextField.text
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 
