@@ -150,12 +150,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGO-LH-wgC">
-                                <rect key="frame" x="171" y="196" width="49" height="42"/>
+                                <rect key="frame" x="171" y="161" width="49" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Post">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="btn:" destination="Bda-jB-omD" eventType="touchUpInside" id="Ple-6D-BtI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="545-Kv-X3r">
                                 <rect key="frame" x="174" y="343" width="46" height="63"/>
