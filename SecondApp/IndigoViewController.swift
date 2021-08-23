@@ -16,10 +16,19 @@ class IndigoViewController: UIViewController {
     @IBAction func Confirm(_ sender: Any) {
         tearVC?.resultText = IndigoTextField.text
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // 옵저버 등록
+        NotificationCenter.default.addObserver(self, selector: #selector(changeBackcolor(_:)), name:
+                Notification.Name("ChangeBackColor"), object: nil)
     }
+    
+    @objc func changeBackcolor(_ notification:Notification){
+        self.view.backgroundColor = UIColor.red
+    }
+      
     
 
     /*

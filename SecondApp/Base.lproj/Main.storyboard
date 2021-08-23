@@ -149,8 +149,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGO-LH-wgC">
+                                <rect key="frame" x="171" y="196" width="49" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Post">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="545-Kv-X3r">
-                                <rect key="frame" x="172" y="301" width="46" height="63"/>
+                                <rect key="frame" x="174" y="343" width="46" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -167,7 +175,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6j4-P9-ayJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="uqN-P4-Pp7" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3008" y="90"/>
+            <point key="canvasLocation" x="3007.6923076923076" y="89.5734597156398"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ymy-n4-jqV">
