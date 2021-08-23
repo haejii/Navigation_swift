@@ -20,13 +20,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Modal" id="qQZ-IU-zxX"/>
+                                    <navigationItem title="Modal" id="qQZ-IU-zxX">
+                                        <barButtonItem key="rightBarButtonItem" title="Close" id="33a-0y-whS"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mox-JJ-QuB"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XFP-sj-rc0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWf-Hz-sex" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1489" y="90"/>
+            <point key="canvasLocation" x="1512" y="90"/>
         </scene>
         <!--Third-->
         <scene sceneID="aWh-fr-pwy">
@@ -131,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6j4-P9-ayJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2206" y="90"/>
+            <point key="canvasLocation" x="2246" y="90"/>
         </scene>
     </scenes>
     <resources>
