@@ -156,18 +156,29 @@
             </objects>
             <point key="canvasLocation" x="-4.615384615384615" y="89.5734597156398"/>
         </scene>
-        <!--Teal View Controller-->
+        <!--Teal-->
         <scene sceneID="a2S-96-UlN">
             <objects>
                 <viewController id="Chj-fw-Zjq" customClass="TealViewController" customModule="SecondApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nb0-7U-SOE">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enK-nl-BDy">
+                                <rect key="frame" x="99" y="374" width="193" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="LZm-cp-lA8" kind="show" id="fbh-7f-uZG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QrI-Ga-7SR"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <color key="tintColor" systemColor="systemTealColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8Xn-wL-pvc"/>
+                    <navigationItem key="navigationItem" title="Teal" id="rWn-7N-6qe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oBY-8k-fbw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -191,6 +202,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQZ-zG-Eh2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1656.9230769230769" y="815.40284360189571"/>
+        </scene>
+        <!--Indigo-->
+        <scene sceneID="kxT-zN-avE">
+            <objects>
+                <viewController id="LZm-cp-lA8" customClass="IndigoViewController" customModule="SecondApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uze-5k-6fQ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="q5j-ee-uVT"/>
+                        <color key="backgroundColor" red="0.4325332117000607" green="0.7693973183631897" blue="0.52189490695578089" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Indigo" id="LG8-M0-pHi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIJ-qV-kp7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3338" y="815"/>
         </scene>
     </scenes>
     <resources>
