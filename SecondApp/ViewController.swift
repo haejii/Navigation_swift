@@ -3,6 +3,11 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var MyLable2: UILabel!
     
+    @IBAction func openlogin(_ sender: Any) {
+        
+        var loginVC = self.storyboard?.instantiateViewController(identifier: "login")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

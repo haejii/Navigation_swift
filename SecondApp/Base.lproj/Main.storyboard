@@ -11,7 +11,7 @@
         <!--Ligin View Controller-->
         <scene sceneID="gUM-dP-g4b">
             <objects>
-                <viewController id="5Yv-kc-Vp5" customClass="LiginViewController" customModule="SecondApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="5Yv-kc-Vp5" customClass="LiginViewController" customModule="SecondApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eN1-wM-VnW">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,6 +70,7 @@
                     <navigationItem key="navigationItem" title="First" id="jop-k7-FBs">
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="Ybz-HG-Zg1">
                             <connections>
+                                <action selector="openlogin:" destination="BYZ-38-t0r" id="Ln2-cj-w3P"/>
                                 <segue destination="5Yv-kc-Vp5" kind="presentation" id="ZKw-Qd-Tcc"/>
                             </connections>
                         </barButtonItem>
